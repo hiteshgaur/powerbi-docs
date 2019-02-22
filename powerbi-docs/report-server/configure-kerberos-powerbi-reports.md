@@ -55,7 +55,7 @@ We will need to configure, or validate, the following.
 ## Authentication type within Report Server configuration
 We need to configure the authentication type for the report server to allow for Kerberos constrained delegation. This is done within the **rsreportserver.config** file. The default location for this file is `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer`.
 
-Within the rsreportserver.config file, you will want to fine the **Authentication/AuthenticationTypes** section.
+Within the rsreportserver.config file, you will want to find the **Authentication/AuthenticationTypes** section.
 
 We want to make sure that RSWindowsNegotiate is listed and the first in the list of authentication types. It should look similar to the following.
 
